@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; // test
 import FontAwesome from 'react-fontawesome';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
