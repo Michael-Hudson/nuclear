@@ -7,7 +7,7 @@ import classnames from 'classnames';
 import _ from 'lodash';
 import Sound from 'react-hifi';
 import { withTranslation } from 'react-i18next';
-
+// tesing
 import * as Actions from './actions';
 import * as PlayerActions from './actions/player';
 import * as PlaylistsActions from './actions/playlists';

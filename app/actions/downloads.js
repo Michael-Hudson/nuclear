@@ -6,8 +6,8 @@ export const DOWNLOAD_PROGRESS = 'DOWNLOAD_PROGRESS';
 export const DOWNLOAD_FINISHED = 'DOWNLOAD_FINISHED';
 export const DOWNLOAD_ERROR = 'DOWNLOAD_ERROR';
 export const CLEAR_FINISHED_DOWNLOADS = 'CLEAR_FINISHED_DOWNLOADS';
-
-export function addToDownloads(musicSources, track) {  
+export function addToDownloads(musicSources, track) {
+  console.log('add to dwnloads');
   return {
     type: ADD_TO_DOWNLOADS,
     payload: { item: {

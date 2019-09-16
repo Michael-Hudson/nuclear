@@ -114,6 +114,7 @@
     "chai-spies": "^1.0.0",
     "classnames": "^2.2.5",
     "css-loader": "^1.0.0",
+    "docker-compose": "^0.22.2",
     "electron": "^4.0.2",
     "electron-builder": "^20.44.4",
     "electron-devtools-installer": "^2.2.4",
