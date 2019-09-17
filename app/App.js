@@ -1,4 +1,4 @@
-import React from 'react'; // test commit
+import React from 'react'; // test commit next
 import FontAwesome from 'react-fontawesome';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
