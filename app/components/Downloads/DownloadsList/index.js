@@ -23,7 +23,6 @@ const DownloadsList = ({
       <Table inverted className={styles.downloads_list}>
         <Table.Header>
           <Table.Row>
-            <Table.HeaderCell>{t('status')}</Table.HeaderCell>
             <Table.HeaderCell onClick={() => {
               if (sortArtistAsc){
                 items.sort((a, b) => {
@@ -58,7 +57,7 @@ const DownloadsList = ({
                 sortAsc ? <Icon name='caret up' /> : <Icon name='caret down' />
               }
             </Table.HeaderCell>
-            <Table.HeaderCell>{t('completion')}</Table.HeaderCell>
+            <Table.HeaderCell>{t('Status')}</Table.HeaderCell>
           </Table.Row>
         </Table.Header>
         <Table.Body>

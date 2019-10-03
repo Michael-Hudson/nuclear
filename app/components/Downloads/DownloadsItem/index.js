@@ -31,16 +31,13 @@ const DownloadsItem = ({
   return (
     <Table.Row>
       <Table.Cell>
-        <StatusIcon status={item.status}/>
-        { item.status }
-      </Table.Cell>
-      <Table.Cell>
         { artistName } - { _.get(item, 'track.name') }
       </Table.Cell>
       <Table.Cell>
         { artistName } - { _.get(item, 'track.name') }
       </Table.Cell>
       <Table.Cell>
+        <Icon name='hourglass start'/>
         { _.round(item.completion*100, 0)  + '%' }
       </Table.Cell>
     </Table.Row>
