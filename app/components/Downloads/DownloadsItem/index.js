@@ -31,10 +31,10 @@ const DownloadsItem = ({
   return (
     <Table.Row>
       <Table.Cell>
-        { artistName } - { _.get(item, 'track.name') }
+        { artistName }
       </Table.Cell>
       <Table.Cell>
-        { artistName } - { _.get(item, 'track.name') }
+        { _.get(item, 'track.name') }
       </Table.Cell>
       <Table.Cell>
         <Icon name='hourglass start'/>
