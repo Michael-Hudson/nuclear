@@ -37,7 +37,7 @@ const DownloadsItem = ({
         { _.get(item, 'track.name') }
       </Table.Cell>
       <Table.Cell>
-        <Icon name='hourglass start'/>
+        <StatusIcon status={item.status}/>
         { _.round(item.completion*100, 0)  + '%' }
       </Table.Cell>
     </Table.Row>

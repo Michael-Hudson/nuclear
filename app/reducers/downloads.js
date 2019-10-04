@@ -34,7 +34,7 @@ export default function DownloadsReducer(state=initialState, action) {
       state,
       action,
       'status',
-      'Started'
+      'Started',
     );
   case DOWNLOAD_PROGRESS:
     return changePropertyForItem(
